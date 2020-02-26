@@ -9,4 +9,13 @@ function List() {
   );
 }
 
+function anotherList() {
+  return (
+    <ul>
+      <li>Pasta</li>
+    </ul>
+  );
+}
+
 export default List;
+export { anotherList };
